@@ -1,0 +1,646 @@
+:root{
+    font-size: 62.5%;
+}
+
+.navbar a{
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.navbar li{
+    margin: 0 5rem;
+}
+
+.left-nav{
+    margin-left: 8rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.img-wrapper img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    height: 70vh;
+}
+
+.img-details{
+    cursor: pointer;
+}
+
+nav img{
+    width: 36rem;
+    padding: 1.5rem;
+}
+
+nav {
+    background-color: black;
+    border-radius: 5rem;
+}
+
+.navbar{
+    align-self: center;
+    width: 95%;
+    position: absolute;
+    top: 5rem;
+    background-color: black;
+    justify-self: center;
+}
+
+.img-wrapper {
+    height: 70vh;
+    overflow: hidden;
+}
+
+.img-wrapper::after{
+    background-color: black;
+    content: "";
+    inset: 0;
+    position: absolute;
+    opacity: 40%;
+    height: 70vh;
+}
+
+.innovative{
+    background-image: url("./project-1-keyverge-Anthony-Abdallah/consultation-bg.png");
+    background-size: 100% auto;
+    padding: 3rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.innovative h2{
+    font-size: 4rem;
+}
+
+.innovative p{
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.faq-arrow{
+    height: 3rem;
+    width: 3rem;
+}
+
+#faq-arrow{
+    rotate: -90deg;
+}
+
+#faq-title{
+    font-size: 6rem;
+    text-align: right;
+}
+
+.faq button{
+    margin-top: 2rem;
+    font-size: 2.4rem;
+}
+
+.faq .accordion-body{
+    font-size: 2rem;
+}
+
+.faq > .row{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}   
+
+.our-team{
+    background-color: #2D2D2D;
+    position: relative;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+
+.team-title{
+    background-color: #DAA425;
+    color: white;
+    font-size: 6rem;
+    padding: 5rem;
+    text-align: center;
+}
+
+.hex-img {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    overflow: hidden;
+    height: 15rem;
+    width: 13rem;
+    margin: 1rem;
+}
+
+.hex-img img{
+    width: 100%;
+}
+
+.name{
+    font-size: 3rem;
+    color: white;
+}
+
+.position{
+    font-size: 2rem;
+    color: white;
+    opacity: 40%;
+}
+
+#david-ahmed{
+    height: 100%;
+    width: auto;
+    position: relative; 
+    left: -50%;
+}
+
+.member{
+    margin: 3rem 0;
+    padding: 0;
+}
+
+.team{
+    margin-top: 3rem;
+}
+
+#consultation-img{
+    rotate: 180deg;
+    width: 100%;
+    position: relative;
+}
+
+.top-layer img{
+    width: 23.7rem;
+    height: 20.5rem;
+}
+
+.top-layer > div{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.bg-img{
+    position: relative;
+}
+
+.top-layer{
+    position: absolute;
+    top: 0;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+.book{
+    height: 120vh;
+}
+
+.book button{
+    margin: 5rem;
+    background-color: #2D2D2D;
+    color: white;
+    width: 47.8rem;
+    height: 7.8rem;
+    font-size: 2rem;
+}
+
+.book h2 {
+    font-size: 6rem;
+    color: #2D2D2D;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    z-index: 20000;
+}
+
+.footer{
+    height: 75vh;
+    padding-top: 5vh;
+    background-color: #2d2d2d;
+}
+
+footer * {
+    color: white;
+}
+
+.details > img {
+    height: 40vw;
+    width: 40vw;
+    padding-right: 2rem;
+}
+
+.lower-footer{
+    background-color: #000000;
+    padding-top: 45vh;
+}
+
+.footer-title{
+    font-size: 6rem;
+    margin: 8vh 0;
+}
+
+.details h2{
+    font-size: 2.5rem;
+}
+
+.details p{
+    font-size: 3.5rem;
+}
+
+.icons img{
+    height: 3.6rem;
+    width: 3.6rem;
+    margin: 1rem;
+}
+
+
+footer a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer-links{
+    gap: 3rem;
+}
+
+#copyright{
+    font-size: 2rem;
+    color: #686868;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.our-team > img{
+    position: absolute;
+    top: 0;
+    left: 75%;
+    height: 100%;
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1380px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1650px;
+    }
+}
+
+@media(max-width: 1100px){
+    :root{
+        font-size: 30%;
+    }
+}
+
+@media(max-width: 1400px){
+    :root{
+        font-size: 40%;
+    }
+}
+
+.location{
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+
+.price{
+    color: #DAA425;
+    font-size: 3rem;
+    margin-bottom: 8rem;
+}
+
+.michroma-regular, #tour-request, .property-price, .property-title, .right-panel *, footer a, .location, .price, .results > h2, .innovative h2, .team-title, .name, #faq-title, .book h2, button, #copyright{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.monserrat, .tabs, .innovative p, .accordion-body, .position, input::placeholder, input, .description{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.monserrat-bold, .active, .details-grid p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url("./project-1-keyverge-Anthony-Abdallah/arrow-faq.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("./project-1-keyverge-Anthony-Abdallah/arrow-faq.svg");
+    transform: rotate(-90deg)
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.bar{
+    background-color: #000000;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.bar button{
+    height: 3.6rem;
+    width: 3.6rem;
+    background-color: #000000;
+    border: none;
+    margin: 0 1rem;
+}
+
+#sort img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.nav-link{
+    font-size: 2.6rem;
+    color: white;
+    opacity: 50%;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+
+.active{
+    color: white;
+    opacity: 1;
+}
+
+#search {
+    color: white;
+    background-color: #FFFFFF40;
+    font-size: 1.6rem;
+}
+
+#search::placeholder {
+    color: #FFFFFF80;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: italic;
+}
+
+form img{
+    height: 2.4rem;
+    width: 2.4rem;
+    z-index: 1;
+    position: absolute;
+    color: white;
+}
+
+#basic-addon1 {
+    background-color: #FFFFFF40;
+    width: 4rem;
+    height: 3.3rem;
+    position: relative;
+}
+
+.prop-container {
+  overflow: hidden;
+  width: 100%;
+}
+.prop-container img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.prop-details img{
+    height: 2.4rem;
+    width: 2.4rem;
+    filter: invert(1);
+    margin-right: 1rem;
+}
+
+.prop-details{
+    background-color: #2D2D2D;
+}
+
+.prop-details p{
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.prop-details > div{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.vr{
+    height: auto;
+    width: 0.2rem;
+    color:#FFFFFF80;
+    border-radius: 0.1rem;
+}
+
+.results > h2{
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.right-panel{
+    background-color: white;
+    height: 100vh;
+    width:  30vw;
+    position: fixed;
+    z-index: 2000;
+    right: 0;
+    top: 0;
+    box-shadow:-4px 0 12px rgba(0, 0, 0, 0.2); /* ← shadow */;
+}
+
+.right-panel h2 {
+    font-size: 3rem;
+}
+
+#sort-panel > div.row, #filter-panel > .row{
+    margin: 5rem 0;
+}
+
+#apply, #request{
+    background-color: #000000;
+    width: 100%;
+}
+
+.right-panel h3, .right-panel button, label{
+    font-size: 2rem;
+}
+
+.right-panel button{
+    color: white;
+    padding: 1.5rem;
+}
+
+#focused-choice, #gold-title{
+    color:#DAA425;
+}
+
+#gold-title {
+    font-size: 2.4rem;
+}
+
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #555;
+  border-radius: 15%; /* Square shape */
+  margin-right: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0.4px;
+  width: 100%;
+  height: 100%;
+  background-color: #DAA425;
+}
+
+input[type="range"] {
+  accent-color: #daa425; /* ✅ Easiest and most modern way */
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.hero{
+    background-size: cover;
+    z-index: 5;
+    position: relative;
+}
+
+.hero-info img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.hero-info{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 0.8rem;
+    padding: 2.5rem;
+}
+
+.property-title{
+    color: white;
+    font-size: 6rem;
+}
+
+.property-price{
+    color: white;
+    font-size: 4rem;
+}
+
+.hero > .h-100{
+    background-color: #00000080;
+}
+
+#small-icons{
+    height: 5rem;
+    width: 5rem;
+}
+
+.details-grid{
+    text-align: center;
+}
+
+.details-grid p{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.img-prop{
+    overflow: hidden;
+}
+
+input.w-100{
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#request {
+    color: white;
+    font-size: 2rem;
+}
+
+#tour-request{
+    font-size: 3rem;
+}
+
+input::placeholder, input{
+    font-size: 1.8rem;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.description, .form-input{
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+}    
+
+.form-input {
+    right: 0;
+}
+
+.description{
+    font-size: 2.5rem;
+}
+
+@media (max-width: 992px){
+    .description, .form-input{
+        position: static;
+    }
+}
